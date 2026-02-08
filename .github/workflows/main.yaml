@@ -21,4 +21,4 @@ jobs:
             - name: Push to hub
               env:
                 HF_TOKEN: ${{ secrets.HF_TOKEN }}
-              run: git push --force https://BalaJM:$HF_TOKEN@huggingface.co/spaces/BalaJM/AgenticAI main
+              run: git push --force https://BalaJM:$HF_TOKEN@huggingface.co/spaces/BalaJM/AgenticAI_Chatbot main
